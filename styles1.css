@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('http://localhost:8080/Quiz/Images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#Container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+    border: 2px solid black;
+    border-radius: 15%;
+    width: 80%; /* Adjust as needed */
+    max-width: 900px; /* Prevent it from stretching too much */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Hides the scrollbars */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+#pannel {
+    padding: 20px;
+}
+
+.Button {
+    background-color: aqua;
+    color: black;
+    height: 25px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+label {
+    font-size: 24px;
+    color: cornsilk;
+}
+
+.styled-textbox {
+    width: 100%;
+    max-width: 600px; /* Keeps the input fields consistent */
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+td {
+    padding: 20px;
+}
+
+.bn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Button:hover {
+    background-color: #333;
+    color: aliceblue;
+    transition-duration: 0.5s;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

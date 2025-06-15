@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <head>
+        <title>Log-In</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <div id="Container">
+            <div id="pannel">
+                <center><label style="font-size: 35px;">Log-in</label></center>
+                <hr>
+                <form  action="http://localhost:8080/Quiz/check" method="post">
+                    <table>
+                        <tr>
+                            <td><label>Username  :</label></td>
+                            <td><input type="text" class="styled-textbox" size="20" name="UName" placeholder="Enter Username..."></td>
+                        </tr>
+                        <tr>
+                            <td><label>Password  :</label></td>
+                            <td><input type="password" class="styled-textbox" name="PWord" size="20" placeholder="password"></td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="designation" value="User">
+                    <div class="bn">
+                        <input type="submit" class="btn btn-success" value="Log-In">
+                        <input type="reset" class="btn btn-danger" value="Reset">
+                    </div>
+                    
+                </form>
+                <center>
+                <a href="ForgotPassword.html">Forgot Password ??</a>
+                Don't have an account ?<a href="Sign-Up.html">Register</a>
+                </center>
+            </div>
+        </div>
+    </body>
+</html>

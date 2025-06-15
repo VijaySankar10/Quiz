@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Management</title>
+    <style>
+        /* General Reset */
+        body, h1, button {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            color: #333;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #container {
+            background: white;
+            width: 400px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        #container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #444;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .button-group button {
+            font-size: 16px;
+            padding: 10px 20px;
+            background: #6c63ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .button-group button:hover {
+            background: #5548c8;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+        }
+
+        .button-group button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Manage Questions</h1>
+        <p>Select an action below:</p>
+        <div class="button-group">
+            <button onclick="window.location.href='Add.jsp'">Add Qn</button>
+            <button onclick="window.location.href='RemoveQn.jsp'">Remove Qn</button>
+        </div>
+    </div>
+</body>
+</html>

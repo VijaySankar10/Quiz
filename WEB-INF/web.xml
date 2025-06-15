@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd" 
+         version="4.0">
+
+    <servlet>
+        <servlet-name>CheckServlet</servlet-name>
+        <servlet-class>check</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckServlet</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignupServlet</servlet-name>
+        <servlet-class>signup</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignupServlet</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QuizPage</servlet-name>
+        <servlet-class>QuizPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuizPage</servlet-name>
+        <url-pattern>/QuizPage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminCheckServlet</servlet-name>
+        <servlet-class>Admincheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminCheckServlet</servlet-name>
+        <url-pattern>/Admincheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Qncheck</servlet-name>
+        <servlet-class>Qncheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Qncheck</servlet-name>
+        <url-pattern>/Qncheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Qnremove</servlet-name>
+        <servlet-class>Qnremove</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Qnremove</servlet-name>
+        <url-pattern>/Qnremove</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>Result</servlet-name>
+        <servlet-class>Result</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Result</servlet-name>
+        <url-pattern>/Result</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ForgotPasswordServlet</servlet-name>
+        <servlet-class>ForgotPasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ForgotPasswordServlet</servlet-name>
+        <url-pattern>/ForgotPasswordServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
