@@ -30,8 +30,8 @@
             userExists = true;
 
             // Email sending
-            final String senderEmail = "mohanram272004@gmail.com"; 
-            final String senderPassword = "kfkf cozt juig urvm";
+            final String senderEmail = "@gmail.com"; 
+            final String senderPassword = "";
 
             Properties props = new Properties();
             props.put("mail.smtp.host", "smtp.gmail.com");
